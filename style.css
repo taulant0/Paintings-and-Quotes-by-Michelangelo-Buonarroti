@@ -1,0 +1,86 @@
+body{
+  background-image: url("./photos/Last_Judgement.jpg");
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+
+.center-position{
+  width:694px;
+  height:924px;
+}
+
+  .first-photo{
+    width: 692px; height: 600px;
+  }
+
+  .quote-button {
+    margin: 0;
+}
+
+.card{
+  width:694px;
+  height:924px;
+}
+.paragraph-height {
+
+  height:246px;
+  padding: 16px;
+}
+
+.card-text{
+  height:192px;
+}
+
+  
+  @media screen and (max-width:768px)
+  {
+
+.card {
+    width: 95%;
+    margin-left: 12px;
+    min-width: 95%;
+    height:90%;
+}
+
+.first-photo{
+  height: 400px;
+  width: 100%;
+}
+
+.center-position{
+  width:100%;
+
+}
+.card-text{
+  height:350px;
+}
+
+.paragraph-height {
+
+  height: 340px;
+  padding: 16px;
+}
+
+.flex-container{
+margin-top: 70px;
+
+}
+
+
+}
+
+.height{
+
+  height: 965px;
+}
+
+.flex-container{
+
+  margin-top: 30px;
+}
